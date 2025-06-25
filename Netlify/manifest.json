@@ -1,0 +1,77 @@
+{
+  "name": "Malaysian Lottery Analysis Tool",
+  "short_name": "Lottery Tool",
+  "description": "Advanced lottery analysis and prediction tool for Malaysian lotteries including Magnum 4D, Sports Toto, Damacai, and Cash Sweep",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#3b82f6",
+  "orientation": "portrait-primary",
+  "categories": ["entertainment", "utilities", "finance"],
+  "lang": "en",
+  "dir": "ltr",
+  "icons": [
+    {
+      "src": "/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable any"
+    },
+    {
+      "src": "/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable any"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "/screenshot-mobile.png",
+      "sizes": "390x844",
+      "type": "image/png",
+      "form_factor": "narrow"
+    },
+    {
+      "src": "/screenshot-desktop.png", 
+      "sizes": "1280x800",
+      "type": "image/png",
+      "form_factor": "wide"
+    }
+  ],
+  "features": [
+    "Number Generation",
+    "Hot/Cold Analysis", 
+    "AI Predictions",
+    "Real-time Data Updates",
+    "Offline Support"
+  ],
+  "related_applications": [],
+  "prefer_related_applications": false,
+  "shortcuts": [
+    {
+      "name": "Generate Numbers",
+      "short_name": "Generate",
+      "description": "Quick access to number generation",
+      "url": "/?tab=generator",
+      "icons": [
+        {
+          "src": "/icon-192.png",
+          "sizes": "192x192"
+        }
+      ]
+    },
+    {
+      "name": "View Predictions",
+      "short_name": "Predictions", 
+      "description": "AI-powered lottery predictions",
+      "url": "/?tab=prediction",
+      "icons": [
+        {
+          "src": "/icon-192.png",
+          "sizes": "192x192"
+        }
+      ]
+    }
+  ]
+}
+
